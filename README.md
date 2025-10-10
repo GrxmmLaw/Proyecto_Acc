@@ -4,14 +4,14 @@ Análisis de accidentalidad en Python utilizando librerías de análisis y machi
 
 ---
 
-## 📘 Descripción
+Descripción
 
 Este proyecto tiene como objetivo analizar datos de accidentalidad mediante herramientas de **análisis de datos** y **aprendizaje automático**.  
 A través de tres notebooks principales, se realiza la carga, limpieza, exploración y modelado de los datos para identificar patrones y factores de riesgo.
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 Proyecto_Acc/
@@ -23,10 +23,10 @@ Proyecto_Acc/
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
-- Python 3.8 o superior  
-- Jupyter Notebook o JupyterLab  
+- Python 3.8 o superior
+- Jupyter Notebook o JupyterLab
 - Librerías principales:
   ```bash
   pip install pandas numpy matplotlib seaborn scikit-learn
@@ -34,15 +34,17 @@ Proyecto_Acc/
 
 ---
 
-## 🚀 Uso
+## Uso
 
 1. Clona este repositorio:
+
    ```bash
    git clone https://github.com/GrxmmLaw/Proyecto_Acc.git
    cd Proyecto_Acc
    ```
 
 2. Abre los notebooks:
+
    ```bash
    jupyter notebook
    ```
@@ -51,49 +53,12 @@ Proyecto_Acc/
 
 ---
 
-## 📊 Flujo de trabajo
+## Tecnologías utilizadas
 
-1. **Carga y limpieza de datos:**  
-   Se eliminan valores nulos, se normalizan variables y se preparan las columnas para análisis.
-
-2. **Análisis exploratorio:**  
-   Se generan visualizaciones para comprender la distribución de variables y correlaciones.
-
-3. **Modelado:**  
-   Se aplican modelos predictivos para clasificar o estimar la gravedad de accidentes según variables relevantes.
-
-4. **Conclusiones:**  
-   Se resumen los hallazgos más relevantes y se proponen líneas futuras de trabajo.
-
----
-
-## 🧠 Tecnologías utilizadas
-
-- **Python**  
-- **Pandas / NumPy** para manipulación de datos  
-- **Matplotlib / Seaborn** para visualización  
-- **Scikit-learn** para modelado y evaluación  
+- **Python**
+- **Pandas / NumPy** para manipulación de datos
+- **Matplotlib / Seaborn** para visualización
+- **Scikit-learn** para modelado y evaluación
 - **Jupyter Notebook** como entorno de desarrollo
-
----
-
-## 🧩 Posibles mejoras
-
-- Integrar nuevas fuentes de datos (meteorología, tráfico, etc.)  
-- Implementar modelos más avanzados (Random Forest, XGBoost)  
-- Desplegar una visualización interactiva con Dash o Streamlit  
-
----
-
-## 👤 Autor
-
-**Iván Zapata (GrxmmLaw)**  
-GitHub: [@GrxmmLaw](https://github.com/GrxmmLaw)
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia **MIT**. Puedes usarlo y modificarlo libremente citando la autoría original.
 
 ---
