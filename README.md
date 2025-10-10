@@ -11,18 +11,6 @@ A través de tres notebooks principales, se realiza la carga, limpieza, explorac
 
 ---
 
-## Estructura del proyecto
-
-```
-Proyecto_Acc/
-├── ProyectoAcc1.ipynb   # Limpieza y preparación de datos
-├── ProyectoAcc2.ipynb   # Análisis exploratorio y visualizaciones
-├── ProyectoAcc3.ipynb   # Modelado predictivo y conclusiones
-└── README.md             # Documentación del proyecto
-```
-
----
-
 ## Requisitos
 
 - Python 3.8 o superior
