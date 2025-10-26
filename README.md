@@ -1,24 +1,40 @@
 # Proyecto_Acc
 
-Análisis de accidentalidad en Python utilizando librerías de análisis y machine learning como **pandas** y **scikit-learn**.
+Análisis de accidentes de tránsito en Chile utilizando **Python** y herramientas de **análisis de datos** y **machine learning**.
 
 ---
 
-Descripción
+## Descripción
 
-Este proyecto tiene como objetivo analizar datos de accidentalidad mediante herramientas de **análisis de datos** y **aprendizaje automático**.  
-A través de tres notebooks principales, se realiza la carga, limpieza, exploración y modelado de los datos para identificar patrones y factores de riesgo.
+Este proyecto tiene como objetivo analizar los **siniestros viales reportados por Carabineros de Chile**, explorando si existen diferencias significativas y correlaciones entre:
+
+* El **tipo de accidente** y el **perfil de las personas involucradas** (conductor, pasajero o peatón).
+* Las **consecuencias** de los accidentes (muertos, graves, menos graves, leves o ilesos).
+* La **conducta infractora** y su relación con las características del accidente.
+* Las **fechas** y patrones temporales (por mes, día o temporada) en la ocurrencia de los siniestros.
+
+A través de tres notebooks principales, se lleva a cabo la carga, limpieza, exploración y modelado de los datos, con el fin de **identificar patrones y factores de riesgo** asociados a la accidentalidad vial en Chile.
+
+---
+
+## Estructura del proyecto
+
+* `ProyectoAcc1.ipynb`: Carga y limpieza de los datos.
+* `ProyectoAcc2.ipynb`: Análisis exploratorio (EDA) y visualización de patrones.
+* `ProyectoAcc3.ipynb`: Modelado estadístico y machine learning para detección de relaciones y predicciones.
 
 ---
 
 ## Requisitos
 
-- Python 3.8 o superior
-- Jupyter Notebook o JupyterLab
-- Librerías principales:
-  ```bash
-  pip install pandas numpy matplotlib seaborn scikit-learn
-  ```
+* **Python 3.8** o superior
+* **Jupyter Notebook** o **JupyterLab**
+
+Instalación de dependencias principales:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
 
 ---
 
@@ -37,16 +53,43 @@ A través de tres notebooks principales, se realiza la carga, limpieza, explorac
    jupyter notebook
    ```
 
-3. Ejecuta los notebooks en orden (`ProyectoAcc1` → `ProyectoAcc2` → `ProyectoAcc3`) para reproducir el flujo completo de análisis.
+3. Ejecuta los notebooks en orden:
+
+   * `ProyectoAcc1.ipynb`
+   * `ProyectoAcc2.ipynb`
+   * `ProyectoAcc3.ipynb`
+
+Esto te permitirá reproducir el flujo completo de análisis y generar las conclusiones del estudio.
 
 ---
 
 ## Tecnologías utilizadas
 
-- **Python**
-- **Pandas / NumPy** para manipulación de datos
-- **Matplotlib / Seaborn** para visualización
-- **Scikit-learn** para modelado y evaluación
-- **Jupyter Notebook** como entorno de desarrollo
+* **Python**
+* **Pandas / NumPy** → Manipulación y procesamiento de datos
+* **Matplotlib / Seaborn** → Visualización de resultados
+* **Scikit-learn** → Modelado y evaluación estadística
+* **Jupyter Notebook** → Entorno de desarrollo interactivo
+
+---
+
+## Objetivos del análisis
+
+1. Identificar correlaciones entre el tipo de accidente y el perfil del infractor.
+2. Evaluar el impacto de distintos tipos de conductas en las consecuencias del siniestro.
+3. Explorar tendencias temporales y estacionales en la ocurrencia de accidentes.
+4. Proponer visualizaciones y modelos predictivos que apoyen la prevención vial.
+
+---
+
+## Fuente de datos
+
+Los datos provienen de los **reportes mensuales de siniestros viales de Carabineros de Chile**, que incluyen información sobre:
+
+* Tipo de accidente
+* Fecha y hora
+* Tipo de participante (conductor, pasajero, peatón)
+* Consecuencias (muertos, graves, menos graves, leves, ilesos)
+* Variables complementarias para análisis de comportamiento e impacto.
 
 ---
